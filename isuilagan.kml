@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>ISU ilagan</name>
+    <description/>
+    <Style id="poly-097138-3501-158-normal">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>3.501</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>9e387109</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-097138-3501-158-highlight">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>5.2515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>9e387109</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-097138-3501-158">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-097138-3501-158-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-097138-3501-158-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-A52714-1200-133-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>851427a5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-A52714-1200-133-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>851427a5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-A52714-1200-133">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-A52714-1200-133-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-A52714-1200-133-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Main Campus</name>
+      <Placemark>
+        <name>Main Campus</name>
+        <description>ISU MAIN</description>
+        <styleUrl>#poly-097138-3501-158</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                121.8694126,17.1309231,0
+                121.8692946,17.1307539,0
+                121.8688065,17.1309846,0
+                121.8684149,17.1300926,0
+                121.8678891,17.1291493,0
+                121.86908,17.1287136,0
+                121.8692463,17.1288725,0
+                121.8696165,17.1299029,0
+                121.8695521,17.1299798,0
+                121.8698203,17.1304925,0
+                121.8693858,17.1307744,0
+                121.8694502,17.1308718,0
+                121.8694126,17.1309231,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Extension bldg - DAS</name>
+      <Placemark>
+        <name>DAS bldg</name>
+        <description>Extension bldg</description>
+        <styleUrl>#poly-A52714-1200-133</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                121.8710089,17.1309655,0
+                121.870679,17.1300658,0
+                121.8704295,17.1297736,0
+                121.8707621,17.1296736,0
+                121.8710035,17.1298812,0
+                121.8712342,17.1302555,0
+                121.8714112,17.1307861,0
+                121.8710089,17.1309655,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
